@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6459F531F340A61000DD526 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6459F521F340A61000DD526 /* TestCollectionViewController.swift */; };
-		B6459F551F340ABD000DD526 /* RepeatingCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6459F541F340ABD000DD526 /* RepeatingCellCollectionViewCell.swift */; };
 		B69442A71EFC285E00600371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442A61EFC285E00600371 /* AppDelegate.swift */; };
 		B69442AC1EFC285E00600371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69442AA1EFC285E00600371 /* Main.storyboard */; };
 		B69442AE1EFC285E00600371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69442AD1EFC285E00600371 /* Assets.xcassets */; };
@@ -24,8 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B6459F521F340A61000DD526 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
-		B6459F541F340ABD000DD526 /* RepeatingCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatingCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		B69442A31EFC285E00600371 /* CloudJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69442A61EFC285E00600371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B69442AB1EFC285E00600371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				B69442AA1EFC285E00600371 /* Main.storyboard */,
-				B6459F521F340A61000DD526 /* TestCollectionViewController.swift */,
-				B6459F541F340ABD000DD526 /* RepeatingCellCollectionViewCell.swift */,
 				B69442AF1EFC285E00600371 /* LaunchScreen.storyboard */,
 				B69442B81EFC286800600371 /* CloudJournal.entitlements */,
 				B69442A61EFC285E00600371 /* AppDelegate.swift */,
@@ -246,8 +240,6 @@
 				B69442C91EFC2B0100600371 /* Entry+CloudKit.swift in Sources */,
 				B69442CF1EFC325000600371 /* EntryListViewController.swift in Sources */,
 				B69442D11EFC57FB00600371 /* EntryDetailViewController.swift in Sources */,
-				B6459F531F340A61000DD526 /* TestCollectionViewController.swift in Sources */,
-				B6459F551F340ABD000DD526 /* RepeatingCellCollectionViewCell.swift in Sources */,
 				B69442CB1EFC2E5300600371 /* CloudKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
